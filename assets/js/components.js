@@ -24,7 +24,7 @@ const capabilities = {
   es: { cnc: 'Mecanizado CNC', molding: 'Moldeo por inyección', sheet: 'Fabricación de chapa', proto: 'Prototipado rápido' }
 };
 
-const rootPath = document.currentScript?.src ? new URL('../../', document.currentScript.src).pathname : '/';
+const rootPath = new URL('../../', import.meta.url).pathname;
 const localize = path => `${rootPath.replace(/\/$/, '')}${path}`;
 const lang = document.body.dataset.lang || 'en';
 const page = document.body.dataset.page || 'home';
