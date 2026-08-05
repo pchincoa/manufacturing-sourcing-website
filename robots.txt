@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+
+# Placeholder domain: update config/brand.js and this file before launch.
+Sitemap: https://manufacturingsourcingpartners.example/sitemap.xml
