@@ -7,6 +7,9 @@ export const brand = {
   shortName: "MSP",
   tagline: "Qualified manufacturing. Managed with confidence.",
   domain: "manufacturingsourcingpartners.example",
+  baseUrl: "https://manufacturingsourcingpartners.example",
+  ogImage: "/assets/img/og-manufacturing-sourcing-partners.svg",
+  indexing: "disabled-until-final-domain",
   email: "rfq@manufacturingsourcingpartners.example",
   logo: null,
   colors: {
