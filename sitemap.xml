@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Placeholder .example URLs: replace with the final configured domain before launch. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://manufacturingsourcingpartners.example/</loc></url>
+  <url><loc>https://manufacturingsourcingpartners.example/services.html</loc></url>
+  <url><loc>https://manufacturingsourcingpartners.example/cnc-machining.html</loc></url>
+  <url><loc>https://manufacturingsourcingpartners.example/injection-molding.html</loc></url>
+  <url><loc>https://manufacturingsourcingpartners.example/sheet-metal.html</loc></url>
+  <url><loc>https://manufacturingsourcingpartners.example/rapid-prototyping.html</loc></url>
+  <url><loc>https://manufacturingsourcingpartners.example/quality.html</loc></url>
+  <url><loc>https://manufacturingsourcingpartners.example/about.html</loc></url>
+  <url><loc>https://manufacturingsourcingpartners.example/request-quote.html</loc></url>
+</urlset>
