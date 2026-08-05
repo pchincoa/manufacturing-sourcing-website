@@ -1,16 +1,12 @@
-/**
- * Temporary brand configuration.
- * Update this single file when the final name, domain, logo, or palette is ready.
- */
 export const brand = {
   name: "Manufacturing Sourcing Partners",
   shortName: "MSP",
   tagline: "Qualified manufacturing. Managed with confidence.",
-  domain: "manufacturingsourcingpartners.example",
-  baseUrl: "https://manufacturingsourcingpartners.example",
+  domain: "pchincoa.github.io/manufacturing-sourcing-website",
+  baseUrl: "https://pchincoa.github.io/manufacturing-sourcing-website",
   ogImage: "/assets/img/og-manufacturing-sourcing-partners.svg",
   indexing: "disabled-until-final-domain",
-  email: "rfq@manufacturingsourcingpartners.example",
+  email: "rfq@manufacturingsourcingpartners.com",
   logo: null,
   colors: {
     ink: "#17221f",

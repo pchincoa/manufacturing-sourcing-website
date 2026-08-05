@@ -1,13 +1,192 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Placeholder .example URLs: replace with the final configured domain before launch. -->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://manufacturingsourcingpartners.example/</loc></url>
-  <url><loc>https://manufacturingsourcingpartners.example/services.html</loc></url>
-  <url><loc>https://manufacturingsourcingpartners.example/cnc-machining.html</loc></url>
-  <url><loc>https://manufacturingsourcingpartners.example/injection-molding.html</loc></url>
-  <url><loc>https://manufacturingsourcingpartners.example/sheet-metal.html</loc></url>
-  <url><loc>https://manufacturingsourcingpartners.example/rapid-prototyping.html</loc></url>
-  <url><loc>https://manufacturingsourcingpartners.example/quality.html</loc></url>
-  <url><loc>https://manufacturingsourcingpartners.example/about.html</loc></url>
-  <url><loc>https://manufacturingsourcingpartners.example/request-quote.html</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/de/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/en/services/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/leistungen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/servicios/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/services/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/de/leistungen/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/leistungen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/servicios/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/services/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/es/servicios/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/leistungen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/servicios/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/services/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/en/cnc-machining/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/cnc-machining/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/cnc-bearbeitung/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/mecanizado-cnc/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/cnc-machining/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/de/cnc-bearbeitung/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/cnc-machining/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/cnc-bearbeitung/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/mecanizado-cnc/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/cnc-machining/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/es/mecanizado-cnc/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/cnc-machining/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/cnc-bearbeitung/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/mecanizado-cnc/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/cnc-machining/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/en/injection-molding/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/injection-molding/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/spritzguss/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/moldeo-por-inyeccion/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/injection-molding/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/de/spritzguss/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/injection-molding/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/spritzguss/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/moldeo-por-inyeccion/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/injection-molding/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/es/moldeo-por-inyeccion/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/injection-molding/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/spritzguss/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/moldeo-por-inyeccion/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/injection-molding/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/en/sheet-metal-fabrication/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/sheet-metal-fabrication/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/blechbearbeitung/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/fabricacion-de-chapa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/sheet-metal-fabrication/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/de/blechbearbeitung/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/sheet-metal-fabrication/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/blechbearbeitung/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/fabricacion-de-chapa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/sheet-metal-fabrication/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/es/fabricacion-de-chapa/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/sheet-metal-fabrication/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/blechbearbeitung/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/fabricacion-de-chapa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/sheet-metal-fabrication/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/en/rapid-prototyping/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/rapid-prototyping/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/prototypenfertigung/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/prototipado-rapido/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/rapid-prototyping/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/de/prototypenfertigung/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/rapid-prototyping/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/prototypenfertigung/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/prototipado-rapido/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/rapid-prototyping/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/es/prototipado-rapido/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/rapid-prototyping/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/prototypenfertigung/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/prototipado-rapido/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/rapid-prototyping/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/en/quality/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/quality/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/qualitaet/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/calidad/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/quality/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/de/qualitaet/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/quality/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/qualitaet/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/calidad/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/quality/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/es/calidad/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/quality/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/qualitaet/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/calidad/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/quality/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/en/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/ueber-uns/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/nosotros/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/about/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/de/ueber-uns/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/ueber-uns/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/nosotros/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/about/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/es/nosotros/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/ueber-uns/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/nosotros/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/about/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/en/request-a-quote/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/request-a-quote/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/anfrage/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/solicitar-presupuesto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/request-a-quote/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/de/anfrage/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/request-a-quote/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/anfrage/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/solicitar-presupuesto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/request-a-quote/"/>
+  </url>
+  <url>
+    <loc>https://pchincoa.github.io/manufacturing-sourcing-website/es/solicitar-presupuesto/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/request-a-quote/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pchincoa.github.io/manufacturing-sourcing-website/de/anfrage/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pchincoa.github.io/manufacturing-sourcing-website/es/solicitar-presupuesto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pchincoa.github.io/manufacturing-sourcing-website/en/request-a-quote/"/>
+  </url>
 </urlset>

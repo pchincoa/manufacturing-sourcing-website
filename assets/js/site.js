@@ -7,7 +7,8 @@ document.querySelectorAll('[data-tagline]').forEach(el => el.textContent = brand
 document.querySelectorAll('[data-email]').forEach(el => { el.textContent = brand.email; el.href = `mailto:${brand.email}`; });
 document.querySelectorAll('[data-domain]').forEach(el => el.textContent = brand.domain);
 
-document.querySelector('.menu-button')?.addEventListener('click', () => {
+document.querySelector('.menu-button')?.addEventListener('click', event => {
   const menu = document.querySelector('.nav-links');
-  menu.classList.toggle('open');
+  const isOpen = menu.classList.toggle('open');
+  event.currentTarget.setAttribute('aria-expanded', String(isOpen));
 });
