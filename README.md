@@ -25,3 +25,4 @@ Then open `http://localhost:4173`.
 ## Updating the brand
 
 Shared brand values are held in `config/brand.js`. Update that file to change the company name, tagline, public domain, contact email, logo reference, and main color palette across the site.
+

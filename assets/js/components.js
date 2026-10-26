@@ -41,9 +41,11 @@ if (header) {
   header.innerHTML = `<div class="container nav">${brandBlock}<button class="menu-button" aria-label="Open navigation" aria-expanded="false">☰</button><nav class="nav-links">${navLinks.map(([key, label]) => `<a href="${localize(routes[key][lang])}">${label}</a>`).join('')}<a class="nav-cta" href="${localize(routes.rfq[lang])}">${copy.rfq}</a>${languageSelector}</nav></div>`;
 }
 
+const privacyRoutes = { en: '/en/privacy/', de: '/de/datenschutz/', es: '/es/privacidad/' };
+const privacyLabels = { en: 'Privacy', de: 'Datenschutz', es: 'Privacidad' };
 const footer = document.querySelector('#site-footer');
 if (footer) {
-  footer.innerHTML = `<div class="container"><div class="footer-grid"><div>${footerBrandBlock}<p>${brand.tagline} ${copy.footer}</p></div><div><h4>${copy.cap}</h4><a href="${localize(routes.cnc[lang])}">${names.cnc}</a><a href="${localize(routes.molding[lang])}">${names.molding}</a><a href="${localize(routes.sheet[lang])}">${names.sheet}</a><a href="${localize(routes.proto[lang])}">${names.proto}</a></div><div><h4>${copy.company}</h4><a href="${localize(routes.quality[lang])}">${copy.q}</a><a href="${localize(routes.about[lang])}">${copy.about}</a><a href="${localize(routes.rfq[lang])}">${copy.rfq}</a><a data-email href="mailto:${brand.email}">${brand.email}</a></div></div><div class="footer-bottom"><span>© ${new Date().getFullYear()} ${brand.name}</span><span>${brand.domain}</span></div></div>`;
+  footer.innerHTML = `<div class="container"><div class="footer-grid"><div>${footerBrandBlock}<p>${brand.tagline} ${copy.footer}</p></div><div><h4>${copy.cap}</h4><a href="${localize(routes.cnc[lang])}">${names.cnc}</a><a href="${localize(routes.molding[lang])}">${names.molding}</a><a href="${localize(routes.sheet[lang])}">${names.sheet}</a><a href="${localize(routes.proto[lang])}">${names.proto}</a></div><div><h4>${copy.company}</h4><a href="${localize(routes.quality[lang])}">${copy.q}</a><a href="${localize(routes.about[lang])}">${copy.about}</a><a href="${localize(routes.rfq[lang])}">${copy.rfq}</a><a data-email href="mailto:${brand.email}">${brand.email}</a></div></div><div class="footer-bottom"><a href="${localize(privacyRoutes[lang])}">${privacyLabels[lang]}</a><span>© ${new Date().getFullYear()} ${brand.name}</span><span>${brand.domain}</span></div></div>`;
 }
 
 const jsonLdTarget = document.querySelector('#brand-jsonld');
@@ -59,3 +61,4 @@ if (jsonLdTarget) jsonLdTarget.textContent = JSON.stringify({
   serviceType: ['Manufacturing sourcing', 'Supplier qualification', 'Quality coordination'],
   inLanguage: lang
 });
+

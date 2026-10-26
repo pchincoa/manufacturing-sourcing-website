@@ -23,3 +23,4 @@ document.querySelector('.menu-button')?.addEventListener('click', event => {
   const isOpen = menu.classList.toggle('open');
   event.currentTarget.setAttribute('aria-expanded', String(isOpen));
 });
+

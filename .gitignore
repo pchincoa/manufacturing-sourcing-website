@@ -1,0 +1,5 @@
+api/private/mail.php
+*.zip
+*.log
+dist/
+.openai/
