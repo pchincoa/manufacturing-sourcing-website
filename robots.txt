@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /
 
-Sitemap: https://pchincoa.github.io/manufacturing-sourcing-website/sitemap.xml
+Sitemap: https://mspsourcing.com/sitemap.xml
+

@@ -2,11 +2,11 @@ export const brand = {
   name: "Manufacturing Sourcing Partners",
   shortName: "MSP",
   tagline: "Qualified manufacturing. Managed with confidence.",
-  domain: "pchincoa.github.io/manufacturing-sourcing-website",
-  baseUrl: "https://pchincoa.github.io/manufacturing-sourcing-website",
+  domain: "mspsourcing.com",
+  baseUrl: "https://mspsourcing.com",
   ogImage: "/assets/img/og-manufacturing-sourcing-partners.svg",
   indexing: "disabled-until-final-domain",
-  email: "rfq@manufacturingsourcingpartners.com",
+  email: "pedro@mspsourcing.com",
   logo: null,
   colors: {
     ink: "#17221f",
@@ -16,3 +16,4 @@ export const brand = {
     paper: "#f8f7f3"
   }
 };
+
